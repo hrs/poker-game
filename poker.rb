@@ -1,0 +1,18 @@
+require_relative "card"
+require_relative "deck"
+require_relative "hand"
+require_relative "player"
+require_relative "scorer"
+require_relative "groupable"
+require_relative "straight_flush_scorer"
+require_relative "four_of_a_kind_scorer"
+require_relative "full_house_scorer"
+require_relative "flush_scorer"
+require_relative "straight_scorer"
+require_relative "three_of_a_kind_scorer"
+require_relative "two_pair_scorer"
+require_relative "one_pair_scorer"
+require_relative "high_card_scorer"
+require_relative "game"
+
+Game.new.play
